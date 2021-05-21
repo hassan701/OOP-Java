@@ -16,7 +16,9 @@ class Knightmare {
 }
 
 class Lancelot extends Knightmare {
-	
+	public void name() {
+		this.name("Lancelot");
+	}
 	public void Genration() {
 		System.out.print("This is a 7th Genration Knightmare Frame\n");
 	}
@@ -33,6 +35,8 @@ public class Launch {
 	 Knightmare test = new Knightmare();
      test.name("Lancelot");
      Lancelot lancelot = new Lancelot();
+     lancelot.name();
+     lancelot.Genration();
      lancelot.Pilot();
  }
 }
